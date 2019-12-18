@@ -1,0 +1,250 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid black;*/
+
+}
+.wrapper{
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 10%;
+	/*border: 1px solid black;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid black;*/
+	float: right;
+	margin-top: 7px;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	color: #626262;
+	padding: 0 50px;
+	transition: .5s;
+	
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+.menu ul li a:hover{
+	color: #0000000;
+
+}
+
+
+
+/*header end*/
+
+
+/*banner s*/
+section{
+
+}
+.b_image{
+
+}
+.b_image img{
+	width: 100%;
+}
+/*banner e*/
+
+/*gateway s*/
+.gateway{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.wrapper2{
+	width: 79%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.g_content{
+
+}
+.light{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	flood-color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_title{
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.c_text{
+	line-height: 28px;
+	word-spacing:3px;
+	margin-bottom: 45px;
+}
+/*gateway e*/
+/*blog s*/
+.blog{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.single{
+	width: 47%;
+	float: left;
+
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+/*blog e*/
+
+/*newsletter s*/
+.newsletter{
+	padding: 50px 0;
+	height: 200px;
+	background-color: #f0f0f0;
+}
+.container{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.form{
+	width: 467px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+
+}
+.form input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 317px;
+	font-size: 18px;
+	padding: 10px 50px 10px 10px;
+	outline: none;
+
+}
+.form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 5px;
+	right: 48px;
+}
+
+/*newsletter e*/
+/*blog2 s*/
+.blog2{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.loadmore button{
+	margin: 110px 440px;
+}
+/*blog2 e*/
+
+/*footer s*/
+.footer{
+	height: 80px;
+	background-color: #f0f0f0; 
+
+}
+.f_menu{
+	float: left;
+	width: 50%;
+	padding-top: 35px;
+
+}
+.f_menu ul{}
+.f_menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.f_menu ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding-right: 28px;
+	
+}
+.follow{
+	float: right;
+	width: 23%;
+}
+.f_icon{
+	padding-top: 35px;
+
+}
+
+.f_icon ul{
+
+}
+.f_icon ul li{
+	list-style: none;
+	float: left;
+
+}
+.f_icon ul li a{
+	text-decoration: none;
+	color: #000000;
+
+}
+.f_icon img{
+	float: right;
+	padding-left: 30px;
+
+}
+/*footer e*/
+
